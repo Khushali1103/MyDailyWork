@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="left">
+                <h3>Khus<span style="color: aqua;">hali</span></h3>
+
+            </div>
+            <div class="right">
+                <ul class="home">
+                    <li class="content"><a href="index.html">Home</a></li>
+                    <li class="content"><a href="#about">About</a></li>
+                    <li class="content"><a href="#contact">Contact</a></li>
+                    <li class="content"><a href="#My-work">My Work</a></li>
+
+
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+    <hr>
+    <main>
+        <section class="section-first">
+            <div class="left-part">
+
+                <div>
+                    <img src="background.png.jpg" height="400px" width="350px"
+                        style="border:4px solid aqua; border-radius: 50%;">
+                </div>
+            </div>
+            <div class="right-part">
+                <span id="element"></span><br>
+                <h1 style="color: beige;"> Hi! I'm <span class="aqua">Khushali Prasad</span></h1>
+                <a href="Khushali_prasad.pdf" download class="btn btn2"
+                    style="margin:15px 0 0 -2px;size: 10px;">Resume</a>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="about.jpeg" style="border:3px solid aqua;">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>I am a 3rd-year B.Tech Computer Science student with a strong foundation in both programming and
+                        front-end development.
+                        My skills encompass languages such as C, C++, Python, and a thorough understanding of
+                        Object-Oriented Programming (OOP) concepts.
+                        Additionally, I am proficient in front-end technologies including HTML, CSS, JavaScript,
+                        Bootstrap, and React.</p>
+                    <section class="section-second">
+                        <div>
+                            <h2 class="skill-header">Soft Skills</h2>
+                            <ul class="skills">
+                                <li>Communication</li>
+                                <li>Teamwork</li>
+                                <li>Time Management</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="skill-header">Hard Skills</h2>
+                            <ul class="skills">
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>Python</li>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>Bootstrap</li>
+
+                            </ul>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="My-work">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="rock-paper-scissor.png" height="400px" width="200px">
+                    <div class="layer">
+                        <h3>Matrimony </h3>
+                        <p>Built using Html,css and bootstrap</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="tic-tac-toe.png" height="400px" width="200px">
+                    <div class="layer">
+                        <h3>Matrimony </h3>
+                        <p>Built using Html,css and bootstrap</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="developer.png" height="400px" width="200px">
+                    <div class="layer">
+                        <h3>Matrimony </h3>
+                        <p>Built using Html,css and bootstrap</p>
+                        <a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1>Contact me</h1>
+                    <br>
+                    <p><i class="fa fa-paper-plane" aria-hidden="true"></i>prasadkhushali9@gmail.com</p>
+                    <p><i class="fa fa-phone-square" aria-hidden="true"></i>+91 6355604491</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                        <a href=""><i class="fa fa-instagram" aria-hidden="true"></i>
+                        </a>
+                        <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                        </a>
+                        <a href=""></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front-end Developer', 'Web Designer'],
+            typeSpeed: 50,
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
